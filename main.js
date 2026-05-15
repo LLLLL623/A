@@ -218,7 +218,7 @@ function createBuildingLabel(name) {
   ctx.textBaseline = 'middle';
   ctx.shadowColor = 'rgba(0,0,0,0.8)';
   ctx.shadowBlur = 8;
-  ctx.fillStyle = 'rgba(100,255,218,0.95)';
+  ctx.fillStyle = 'rgba(100,255,217,0.95)';
   ctx.fillText(name, canvas.width / 2, canvas.height / 2 + 2);
 
   ctx.shadowBlur = 0;
